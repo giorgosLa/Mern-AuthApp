@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "authapp": "file:..",
     "axios": "^1.7.7",
     "crypto-js": "^3.1.9-1",
     "framer-motion": "^11.11.9",
