@@ -31,7 +31,7 @@ export const useAuthStore = create((set) => ({
       });
     } catch (error) {
       set({
-        error: error.response.data.message || "Error signing up malaka",
+        error: error.response.data.message || "Error signing up",
         isLoading: false,
       });
       throw error;
